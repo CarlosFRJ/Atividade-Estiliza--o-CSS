@@ -1,0 +1,117 @@
+* {
+    color: #fff;
+}
+
+body{
+    font-family: "Comic-neue", cursive;
+    background-color: #000;
+    background: url(assets/backgroundimg.webp) no-repeat fixed;
+    background-size: cover;
+}
+
+pre{
+    color: #96ece8;
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 70px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+h3, h4, h5, h6{
+    font-size: 15px;
+}
+
+.hcolor{
+    text-align: center;
+    color: #7fffd4;
+}
+
+strong{
+    color: #7fffd4;
+}
+
+mark{
+    background-color: rgb(62, 107, 94);
+}
+
+a{
+    color: #ff0;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f00;
+}
+
+table, th, td{
+    border: 1px solid aquamarine;
+    width: 30%;
+    height: 30%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #cd7f32;
+}
+
+th{
+    background-color: aquamarine;
+    color: #071699;
+}
+
+td:nth-child(even){
+    background-color: #5f9693;
+}
+
+dl{
+    border: 1px dotted aquamarine;
+    width: 30%;
+    margin: auto;
+}
+
+iframe{
+    width: 30vw;
+    height: 30vh;
+    display: block;
+    margin: auto;
+}
+
+.image{
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+}
+
+.golpes{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coment{
+    font-size: small;
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+.titlealign{
+    text-align: left;
+}
+
+button{
+    background-color: #cd7f32;
+    border: none;
+}
